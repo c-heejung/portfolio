@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+.ani {
+    animation-name: none !important;
+    -webkit-animation-name: none !important;
+    opacity: 0;
+}
+
+[class *= ani-start] {
+	animation-delay:0s;
+	-webkit-animation-delay:0s;
+	animation-duration:1.2s;
+	-webkit-animation-duration:1;
+	animation-fill-mode: both;
+	-webkit-animation-fill-mode: both;
+	animation-direction: alternate;
+	-webkit-animation-direction: alternate;
+}
+
